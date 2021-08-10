@@ -1,0 +1,25 @@
+.centered-col
+{
+    float: none;
+    margin: 0 auto;
+}
+
+.cont
+{
+    margin-top: 200px;
+}
+
+
+
+.text-header
+{
+    color: #8f98e2;
+    text-align: center;
+    width: 274px;
+    background:white;
+    margin: -40px auto;
+}
+
+hr.style1{
+	border-top: 2px solid #8c8b8b;
+}

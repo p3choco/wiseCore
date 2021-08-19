@@ -6,7 +6,11 @@
 
 .cont
 {
-    margin-top: 200px;
+    margin-top: 0px;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
 }
 
 
@@ -15,11 +19,37 @@
 {
     color: #8f98e2;
     text-align: center;
-    width: 274px;
+    width: 20%;
     background:white;
     margin: -40px auto;
 }
 
-hr.style1{
+hr.style1
+{
 	border-top: 2px solid #8c8b8b;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.image
+{
+    display: block; 
+    height: auto;
+}
+
+.kafel
+{
+    background-color: #8C52FF;
+}
+
+.kafelek
+{
+    background-color: #FFBD59;
+}
+
+.welcomeText
+{
+    margin-top: 30%;
+    color: white;
+    font-size: 24px;
 }

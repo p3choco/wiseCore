@@ -6,14 +6,12 @@
 
 .cont
 {
-    margin-top: 0px;
+    min-height: 30%;
     text-align: center;
     margin-left: 0;
     margin-right: 0;
     width: 100%;
 }
-
-
 
 .text-header
 {
@@ -47,9 +45,77 @@ hr.style1
     background-color: #FFBD59;
 }
 
+.kafeleczek
+{
+    background-color: #66cccc;
+}
+
 .welcomeText
 {
     margin-top: 30%;
     color: white;
     font-size: 24px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.centered-text
+{
+    margin-top: 10%;
+}
+
+.thumbnail
+{
+    color:#8C52FF;
+    margin-top: 10%;
+}
+
+.etykiet
+{
+    color:#FFBD59;
+}
+
+.list
+{
+    margin-top: 3%;
+    color: white;
+    font-size: 24px;
+    margin-right: 5%;
+}
+
+.words
+{
+    color: white;
+    font-size: 24px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.smaller-words
+{
+    color: white;
+    font-size: 17px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.item1
+{
+    margin-top: 20%;
+}
+
+.item2
+{
+    margin-top: 20%;
+}
+
+.item3
+{
+    margin-top: 4%;
+}
+
+.tytul
+{
+    color:#8C52FF;
+    padding-top: 6%;
 }

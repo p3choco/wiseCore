@@ -37,7 +37,7 @@ hr.style1
 
 .kafel
 {
-    background-color: #8C52FF;
+    background-color: #A968DE;
 }
 
 .kafelek
@@ -47,7 +47,7 @@ hr.style1
 
 .kafeleczek
 {
-    background-color: #66cccc;
+    background-color: #8AE0E3;
 }
 
 .welcomeText
@@ -66,7 +66,7 @@ hr.style1
 
 .thumbnail
 {
-    color:#8C52FF;
+    color:#A968DE;
     margin-top: 10%;
 }
 
@@ -116,6 +116,34 @@ hr.style1
 
 .tytul
 {
-    color:#8C52FF;
+    color:#A968DE;
     padding-top: 6%;
 }
+
+
+
+
+
+
+.test1
+{
+    background-color: white;
+   
+}
+
+.test2
+{
+    background-color: #A968DE;
+    margin-top: 30%;
+    color: white;
+    font-size: 24px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.nav-btn
+{
+  
+}
+
+

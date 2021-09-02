@@ -7,7 +7,7 @@
 .cont
 {
     min-height: 30%;
-    text-align: center;
+    text-align: justify;
     margin-left: 0;
     margin-right: 0;
     width: 100%;
@@ -48,6 +48,7 @@ hr.style1
 .kafeleczek
 {
     background-color: #8AE0E3;
+    
 }
 
 .welcomeText
@@ -68,11 +69,13 @@ hr.style1
 {
     color:#A968DE;
     margin-top: 10%;
+    text-align: center;
 }
 
 .etykiet
 {
     color:#FFBD59;
+    margin-left: 5%;
 }
 
 .list
@@ -81,6 +84,7 @@ hr.style1
     color: white;
     font-size: 24px;
     margin-right: 5%;
+    text-align: justify;
 }
 
 .words
@@ -116,8 +120,9 @@ hr.style1
 
 .tytul
 {
-    color:#A968DE;
+    color:#FFBD59;
     padding-top: 6%;
+    text-align: center;
 }
 
 
@@ -139,11 +144,6 @@ hr.style1
     font-size: 24px;
     margin-right: 5%;
     margin-left: 5%;
-}
-
-.nav-btn
-{
-  
 }
 
 

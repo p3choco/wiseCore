@@ -146,4 +146,38 @@ hr.style1
     margin-left: 5%;
 }
 
+.arrow
+{
+    display: block; 
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
 
+.words1234
+{
+        color: white;
+        font-size: 34px;
+        margin-right: 5%;
+        margin-left: 5%;
+        text-align: center;
+    
+}
+
+.thumbnail1234
+{   
+    color:cyan;
+}
+
+.road
+{
+    width: 100%;
+    max-height: 70px;
+    margin: 0;
+    padding: 0;
+}
+
+.arr
+{
+    width: 100%;
+    max-height: 70px;
+}

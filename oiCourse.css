@@ -148,9 +148,9 @@ hr.style1
 
 .arrow
 {
-    display: block; 
-    margin-top: 200px;
-    margin-bottom: 200px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .words1234
@@ -180,4 +180,9 @@ hr.style1
 {
     width: 100%;
     max-height: 70px;
+}
+
+.orange
+{
+    color: #FFBD59;
 }

@@ -17,6 +17,8 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body>
@@ -36,9 +38,9 @@
                 </li>
             </ul>-->
     </nav>
-    <div class="container-fluid cont header centered-text">
+    <div class="container-fluid cont header centered-text" data-aos="fade-up">
         <div class="row">
-            <div class="col text-center ">
+            <div class="col text-center " >
                 <h1>Zostań laureatem Olimpiady Informatycznej</h1>
             </div>
         </div>
@@ -55,7 +57,7 @@
             <div class="col col-sm-6 col-12">
                 <img src="piotrek.png" class="rounded img-fluid w-100 image" alt="Cinque Terre">
             </div>
-            <div class="col col-sm-6 col-12">
+            <div class="col col-sm-6 col-12" >
                 <div class="welcomeText">
                     <p>To jest Piotrek.
                         Piotrek jest zafascynowany programowaniem i nowymi technologiami.
@@ -83,7 +85,7 @@
     <div class="container-fluid cont kafelek">
         <div class="row">
 
-            <div class="col col-sm-12 col-12">
+            <div class="col col-sm-12 col-12" data-aos="fade-up">
                 <p class="words1234">
                     </br></br>Aby dostać się na studia informatyczne
                     na najlepsze uczelnie Piotrek musi napisać maturę rozszerzoną z dwóch ścisłych przedmiotów na ponad
@@ -93,7 +95,7 @@
                 </p>
             </div>
 
-            <div class="col col-sm-5 col-12">
+            <div class="col col-sm-5 col-12 ">
                 <h3 class="thumbnail">Co jest jego szansą?</h3>
                 <p class="words">
 
@@ -108,11 +110,8 @@
 
                 </p>
             </div>
-            <div class="col col-sm-2 col-2">
-                <p class="smaller-words">
-
+            <div class="col col-sm-2 col-2" data-aos="zoom-in" data-aos-duration="2000">
                     <img src="strzalka.png" class="rounded img-fluid w-100 arrow" alt="Cinque Terre">
-                </p>
             </div>
 
             <div class="col col-sm-5 col-12">
@@ -197,7 +196,7 @@
         <h1 class="tytul">Agenda</h1>
         <div class="row">
             <div class="col col-sm-6 col-12">
-                <h2 class="thumbnail">Wstęp:</h2>
+                <h2 class="thumbnail orange">Wstęp:</h2>
                 <div class="col col-12 item3">
                     <h3 class="etykiet">Jak wygląda olimpiada?</h1>
                         <p class="smaller-words">
@@ -245,7 +244,7 @@
 
             </div>
             <div class="col col-sm-6 col-12">
-                <h2 class="thumbnail">I Etap/ II Etap/ III Etap:</h2>
+                <h2 class="thumbnail orange">I Etap/ II Etap/ III Etap:</h2>
                 <div class="col col-12 item3">
                     <h3 class="etykiet">Jak wygląda etap?</h1>
                         <p class="smaller-words">
@@ -285,4 +284,8 @@
             </div>
         </div>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>

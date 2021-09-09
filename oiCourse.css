@@ -186,3 +186,34 @@ hr.style1
 {
     color: #FFBD59;
 }
+
+.mobileHide { display: inline; }
+@media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 575px){
+   .mobileHide { display: none;}
+}
+
+.mobileShow {display: none;}
+
+  @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 575px){ 
+      .mobileShow {display: inline;}
+  }
+
+.mobileWords {font-size: 24px;}
+
+  @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 575px){ 
+      .mobileWords {font-size: 16px;}
+  }
+
+.mobileThumbnail {font-size: 34px;}
+
+  @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 575px){ 
+      .mobileThumbnail {font-size: 24px;}
+}

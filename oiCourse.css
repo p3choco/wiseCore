@@ -1,3 +1,7 @@
+.body,html
+{
+    overflow-x: hidden;
+}
 .centered-col
 {
     float: none;
@@ -195,7 +199,7 @@ hr.style1
 .roadPng
 {
     max-height: 70px;
-    position: relative;
+    position: absolute;
 }
 
 .orange

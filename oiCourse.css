@@ -84,7 +84,7 @@ hr.style1
     color: white;
     font-size: 24px;
     margin-right: 5%;
-    text-align: justify;
+    text-align: left;
 }
 
 .words
@@ -170,15 +170,15 @@ hr.style1
 
 .road
 {
-    width: 100%;
+    width: 19000px;
     max-height: 70px;
     margin: 0;
     padding: 0;
 }
 
-.arr
+.roadPng
 {
-    width: 100%;
+    width: 19000px;
     max-height: 70px;
 }
 

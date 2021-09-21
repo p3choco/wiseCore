@@ -7,22 +7,13 @@
 
 .cont
 {
-    min-height: 30%;
+    min-height: 10%;
     text-align: left;
     font-family: Georgia;
     margin-left: 0;
     margin-right: 0;
     width: 100%;
     overflow: hidden;
-}
-
-.text-header
-{
-    color: #8f98e2;
-    text-align: center;
-    width: 20%;
-    background:white;
-    margin: -40px auto;
 }
 
 hr.style1
@@ -38,25 +29,19 @@ hr.style1
     height: auto;
 }
 
-.kafel
+.purple
 {
     background-color: #A968DE;
 }
 
-.kafelek
+.orange
 {
     background-color: #FFBD59;
 }
 
-.kafeleczek
-{
-    background-color: #8AE0E3;
-    
-}
-
 .welcomeText
 {
-    color: white;
+    color: black;
     font-size: 24px;
     margin-right: 5%;
     margin-left: 5%;
@@ -67,7 +52,10 @@ hr.style1
 
 .centered-text
 {
-    margin-top: 10%;
+    min-height: 30%;
+    background-color: #f6f6f6;
+    padding-top: 5%;
+ 
 }
 
 .thumbnail
@@ -89,7 +77,7 @@ hr.style1
 .list
 {
     margin-top: 3%;
-    color: white;
+    color: black;
     font-size: 24px;
     margin-right: 5%;
     text-align: left;
@@ -97,7 +85,7 @@ hr.style1
 
 .words
 {
-    color: white;
+    color: black;
     font-size: 24px;
     margin-right: 5%;
     margin-left: 5%;
@@ -105,7 +93,7 @@ hr.style1
 
 .smaller-words
 {
-    color: white;
+    color: black;
     font-size: 17px;
     margin-right: 5%;
     margin-left: 5%;
@@ -133,8 +121,6 @@ hr.style1
     text-align: center;
     font-size: 49px;
 }
-
-
 
 
 
@@ -173,7 +159,7 @@ hr.style1
 
 .words1234
 {
-        color: white;
+        color: black;
         font-size: 34px;
         margin-right: 5%;
         margin-left: 5%;
@@ -201,9 +187,14 @@ hr.style1
     position: relative;
 }
 
-.orange
+.orange-letters
 {
     color: #FFBD59;
+}
+
+.purple-letters
+{
+    color: #A968DE;
 }
 
 .mobileHide { display: inline; }
@@ -247,7 +238,7 @@ hr.style1
 
 .bumper
 {
-    padding-bottom: 20px;
+    padding-bottom: 150px;
 }
 
 .numList

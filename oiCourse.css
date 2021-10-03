@@ -144,8 +144,6 @@ hr.style1
 .arrow
 {
     position: relative;
-    top: 50%;
-    transform: translateY(-50%);
 }
 
 .mobileArrow
@@ -154,6 +152,7 @@ hr.style1
     max-width: 100px;
     margin-left: 50%;
     margin-right: 50%;
+    margin-top: 10%;
     overflow: hidden;
 }
 
@@ -236,9 +235,12 @@ hr.style1
       .mobileEtykiet {font-size: 24px;}
 }
 
-.bumper
-{
-    padding-bottom: 150px;
+.bumper{padding-bottom: 150px;}
+
+  @media only screen
+    and (min-device-width : 100px)
+    and (max-device-width : 992px){ 
+      .bumper {padding-bottom: 50px;}
 }
 
 .numList

@@ -150,10 +150,10 @@ hr.style1
 {
     max-height: 200px;
     max-width: 100px;
-    margin-left: 50%;
-    margin-right: 50%;
+    margin: auto;
     margin-top: 10%;
     overflow: hidden;
+    
 }
 
 .words1234

@@ -1,4 +1,3 @@
-
 .centered-col
 {
     float: none;
@@ -258,4 +257,9 @@ hr.style1
     min-height: 300px;
     display: table;
     padding-top: 2%;
+}
+
+.pay-div
+{
+    margin-top: 20%;
 }
